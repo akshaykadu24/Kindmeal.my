@@ -1,0 +1,52 @@
+* {
+  padding: 0%;
+  margin: 0;
+  /* height: 100vh; */
+  width: 100%;
+}
+
+/* .content img {
+  width: 100%;
+  border: 1px;
+} */
+
+.content {
+  margin: auto;
+  height: 55vh;
+  width: 80%;
+  background-image: url(./images/1.PNG);
+
+  background-size: 100%;
+
+  background-repeat: repeat;
+  transition: 5s;
+
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-out;
+  animation-duration: 18s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-image: url(./images/1.PNG);
+  }
+  14.28% {
+    background-image: url(./images/2.PNG);
+  }
+
+  28.57% {
+    background-image: url(./images/3.PNG);
+  }
+  42.84% {
+    background-image: url(./images/4.PNG);
+  }
+  57.12% {
+    background-image: url(./images/5.PNG);
+  }
+  71.4% {
+    background-image: url(./images/6.PNG);
+  }
+}
