@@ -1,0 +1,39 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.head_color{
+    color: gray;
+}
+#upper_div{
+    background-color: rgb(240,240,240);
+    /* padding: 0px 20% 0px 20%; */
+    /* margin: auto; */
+
+}
+form{
+    /* border: 1px solid red; */
+    /* gap: 50px; */
+    display: flex;
+    justify-content: space-between;
+
+}
+#categories, #location{
+    width: 20%;
+}
+input{
+    width: 30%;
+}
+#categories, #location, input, button{
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    height: 40px;
+    
+
+}
+button{
+    background-color: red;
+    color: white;
+    padding: 0px 25px 0px 25px;
+}
