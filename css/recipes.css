@@ -1,0 +1,116 @@
+#main{
+    display:flex;
+    border:1px solid green;
+
+
+}
+#second{
+    display:flex;
+    justify-content: space-around;
+    border:1px solid red;
+
+}
+#niche{
+    display:flex;
+    justify-content: space-around;
+}
+#niche4{
+    border:1px solid blue;
+    height:200px;
+    width:80%;
+}
+#one_div{
+    display:flex;
+    justify-content: space-around;
+}
+#small_divs{
+    border:1px solid black;
+    height:40px;
+    width:200px;
+    text-align: center;
+}
+#number_div{
+    display:flex;
+    justify-content: space-around;
+    height:50px;
+    width:20%;
+    border:1px solid orange;
+}
+#teddy_image{
+height:50px;
+width:50px;
+border-radius: 20px;
+}
+#major_big_div{
+height:600px;
+width:80%;
+border:1px solid yellowgreen
+}
+#six_div{
+height:400px;
+width:30%;
+border:1px solid maroon;
+
+}
+#image_one{
+height:180px;
+width:180px;
+}
+#one{
+display:flex;
+justify-content: space-between;
+}
+
+#two{
+    height: 70%;
+    width:100%;
+    border:2px solid black;
+}
+#image_one{
+    height:60%;
+    width:100%;
+}
+#smallimg{
+    height:25px;
+    width:25px;
+    padding-left:60px;
+    
+
+}
+#smallimg{
+    height:25px;
+    width:25px;
+}
+#tddiv{
+    border:1px solid goldenrod;
+    height:30px;
+    width:330px;
+    display:flex;
+}
+
+#desc{
+    height:30px;
+    width:100%;
+    border:1px solid pink;
+}
+#imm{
+    height:30px;
+    width:30px;
+}
+#three{
+    display:flex;
+    justify-content: space-between;
+    border:1px solid violet;
+}
+#time1{
+    display:flex;
+}
+#major_big_div{
+    margin-top:20px;
+    margin-bottom:20px;
+    display:flex;
+    height:auto;
+    justify-content: space-between;
+    border:3px solid blue;
+}
+
