@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Sign Up page</title>
+
+
+	<link rel="stylesheet" href="./css/signup.css" />
+	<link rel="stylesheet" href="./components/navbar.css" />
+
+</head>
+
+<body>
+
+	<div id="container">
+
+		<div id="left_div">
+			<div id="foodLoverSignUp">
+				<img src="https://www.kindmeal.my/images/join_normal.png" alt="foodLoverLogo" />
+				<h5 style="cursor: pointer;padding: 10px;" onclick="window.location.href='signup.html'">
+					Food Lover Sign Up
+				</h5>
+			</div>
+			<div id="restaurantSignUp">
+				<img src="https://www.kindmeal.my/images/join_shop.png" alt="restaurantLogo" />
+				<h5 style="cursor: pointer;padding: 10px;">Restaurant Sign Up</h5>
+			</div>
+			<div id="whyKindMeal">
+				<h3>Why KindMeal?</h3>
+				<br />
+				<h5>• Exclusive meat-free deals</h5>
+				<h5>• Share yummy food moments</h5>
+				<h5>• Meet friendly food lovers</h5>
+				<h5>• Discover cool restaurants</h5>
+				<h5>• Email updates on tasty deals</h5>
+				<h5>• Instant coupons & dining</h5>
+				<h5>• No upfront payment, booking or printing</h5>
+				<h5 id="moreAboutKM" style="cursor: pointer">
+					More About KindMeal >>
+				</h5>
+			</div>
+		</div>
+
+
+		<div id="right_div">
+			<h2>
+				Food Lover? Sign Up Now or
+				<span style="color: blue; cursor: pointer">Login With Facebook</span>
+			</h2>
+			<br />
+			<p>
+				Discover tasty meat-free meals and dine instantly — no coupon payment,
+				booking or printing is required.
+			</p>
+			<br />
+			<p>
+				KindMeal is a fun, exciting and cool new way for you to show your
+				compassion towards animals. We collaborate with kind restaurants and
+				cafes across the nation to bring you delicious meat-free foods that
+				will not only help save precious animal lives, but improve your health
+				and save your money at the same time!
+			</p>
+			<br />
+			<br />
+			<div id="forName">
+				<p style="margin-top: 20px;">Your Name</p>
+				<div>
+					<div>
+						<p>First Name</p>
+						<input type="text" id="firstName" required="true" />
+					</div>
+					<div>
+						<p>Last Name</p>
+						<input type="text" />
+					</div>
+				</div>
+			</div>
+
+			<div id="forEmail">
+				<p style="margin-top: 20px;">Email</p>
+				<div>
+					<p>Your email must be correct to receive activation email</p>
+					<input type="email" id="SignUpemail" required />
+				</div>
+			</div>
+
+			<div id="forReEnterEmail">
+				<p>Re-Enter Email:</p>
+				<div style="margin-top: 2px">
+					<input type="email" />
+				</div>
+			</div>
+
+			<div id="forPassword">
+				<p>Password</p>
+				<div>
+					<input type="password" id="SignUppass" required />
+				</div>
+			</div>
+
+			<div id="forUsername">
+				<p style="margin-top: 20px;">Username</p>
+				<div style="margin-top: -28px;">
+					<p>Choose a cool username for your Personal Profile page, comments & reviews</p>
+					<p style="color: blue;">http://KindMeal.my/Username</p>
+					<input type="text" />
+				</div>
+			</div>
+
+			<div id="forBirthDate">
+				<p style="margin-top: 20px;">Birth Date</p>
+				<div>
+					<p>Only your age will be publicly visible</p>
+					<input type="date" />
+				</div>
+			</div>
+
+			<div id="forCountry">
+				<p>Country</p>
+				<div>
+					<select name="countries" id="countries">
+						<option value="yourCountry">Your Country</option>
+						<option value="Malaysia">Malaysia</option>
+						<option value="Maldives">Maldives</option>
+						<option value="Mali">Mali</option>
+						<option value="Malta">Malta</option>
+						<option value="Hong Kong">Hong Kong</option>
+						<option value="Hungary">Hungary</option>
+						<option value="Iceland">Iceland</option>
+						<option value="India">India</option>
+						<option value="Indonesia">Indonesia</option>
+					</select>
+				</div>
+			</div>
+
+			<div id="forState">
+				<p>Select State</p>
+				<div>
+					<select name="states" id="states">
+
+						<option value="selectState">Select State</option>
+						<option value="Johor">Johor</option>
+						<option value="Kedah">Kedah</option>
+						<option value="Kelantan">Kelantan</option>
+						<option value="Kuala Lumpur">Kuala Lumpur</option>
+						<option value="Labuan">Labuan</option>
+						<option value="Malacca">Malacca</option>
+						<option value="Negeri Sembilan">Negeri Sembilan</option>
+						<option value="Pahang">Pahang</option>
+						<option value="Perak">Perak</option>
+						<option value="Perlis">Perlis</option>
+						<option value="Penang">Penang</option>
+					</select>
+				</div>
+			</div>
+
+			<div id="forGender">
+				<p>Gender</p>
+				<div style="margin-top: 10px">
+					<input type="checkbox" name="male" value="male" />
+					<label for="male">Male</label>
+					<input type="checkbox" name="female" value="female" />
+					<label for="male">Female</label>
+				</div>
+			</div>
+
+			<div id="forProfilePhoto">
+				<p>Profile Photo</p>
+				<div style="margin-top: 2px">
+					<button style="padding: 8px; border-radius: 10px; cursor: pointer">Select Photo</button>
+				</div>
+			</div>
+
+			<input type="checkbox" name="termsNConditions" id="termsNConditions" />
+			<label for="termsNConditions">I agree to KindMeal.my's Terms & Conditions</label>
+
+
+			<button id="signUpButton">Join Now</button>
+		</div>
+	</div>
+
+</body>
+
+</html>
+
+<script src="js/signup.js" type="module"></script>
