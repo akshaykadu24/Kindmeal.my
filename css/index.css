@@ -14,7 +14,7 @@
   margin: auto;
   height: 55vh;
   width: 80%;
-  background-image: url(./images/1.PNG);
+  background-image: url(../images/1.PNG);
 
   background-size: 100%;
 
@@ -31,22 +31,22 @@
 
 @keyframes animate {
   0% {
-    background-image: url(./images/1.PNG);
+    background-image: url(../images/1.PNG);
   }
   14.28% {
-    background-image: url(./images/2.PNG);
+    background-image: url(../images/2.PNG);
   }
 
   28.57% {
-    background-image: url(./images/3.PNG);
+    background-image: url(../images/3.PNG);
   }
   42.84% {
-    background-image: url(./images/4.PNG);
+    background-image: url(../images/4.PNG);
   }
   57.12% {
-    background-image: url(./images/5.PNG);
+    background-image: url(../images/5.PNG);
   }
   71.4% {
-    background-image: url(./images/6.PNG);
+    background-image: url(../images/6.PNG);
   }
 }
