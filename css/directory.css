@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#vegetarianRestaurants{
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 170px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: left;
+    
+}
+
+#vegetarianRestaurantsContents{
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+
+#vegetarianRestaurantsContents p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+#sam1{
+    height: 50px;
+    margin-top: 20px;
+}
+#sa1{
+    height: 50px;
+    margin-top: 20px;
+    width: 150px;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+#sa2{
+    height: 50px;
+    margin-top: 20px;
+    width: 150px;
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+#vegetarianRestaurantsContents>div{
+    display: flex;
+    justify-content: space-between;
+    /* text-align: left; */
+}
+
+#vegetarianRestaurantsContents>div>input, #vegetarianRestaurantsContents>div>select{
+    border-radius: 5px;
+    padding: 0px 5px;
+    width: 200px;
+    border: 1px solid gray;
+    color: gray;
+    font-size: 14px
+}
+
+/* #vegetarianRestaurantsContents>div>.btn-success{
+    font-size: 16px;
+    height: 40px
+} */
+
+#fourButtons{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+    height: 40px;
+    border: none;
+    
+}
+
+#fourButtons .btn-light{
+    color: rgb(73, 72, 72);
+    font-size: 14px;
+    width: 200px;
+    border-radius: 5px;
+    border:none;
+}
+#fourButtons .btn-success{
+    border: none;
+    width: 170px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+#sam11{
+    height: 40px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+}
+#pageNosAndNext{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+#nextButton button{
+    font-size: 12px;
+}
+
+#discoverImage{
+    cursor: pointer;
+    margin: auto;
+    width: 70%;
+}
+
+#discoverImage img{
+    width: 100%;
+    height: 10%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin: 20px auto;
+}
+
+#foodMenuDiv1,#foodMenuDiv2{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    margin: auto;
+}
+
+.foodMenuBox{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.foodMenuBox img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.foodMenuBox p{
+    margin-bottom: 2px;
+    /* font-size: 14px; */
+}
+
+.foodMenuBox p+p{
+    color: gray;
+    margin-bottom: 5px;
+}
+
+#vegetarianRestaurants2{
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    position: relative;
+    top:30px
+
+}
+
+#sam12{
+    height: 40px;
+    margin-top: 20px;
+}
+#sam13{
+    background-color:red ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 170px;
+    margin-top: 20px;
+    
+
+}
+#sam14{
+    background-color:green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 170px;
+    margin-top: 20px;
+}
+#sam15{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+#sam16{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
