@@ -1,23 +1,147 @@
-#main{
-    display:flex;
-    border:1px solid green;
-
-
-}
-#second{
-    display:flex;
+#upr {
+    height: 100px;
+    display: flex;
+    /* border: 1px solid red; */
     justify-content: space-around;
-    border:1px solid red;
+    align-items: center;
+  }
+  
+  #logo {
+    width: 28%;
+  
+    /* padding-top: 25px; */
+    padding-left: 100px;
+    cursor: pointer;
+  
+    /* border: 1px solid teal; */
+  }
+  
+  #social {
+    width: 13%;
+    height: 60px;
+    display: flex;
+  
+    /* border: 1px solid red; */
+  }
+  #social > img {
+    /* border: 1px solid red; */
+    width: 33%;
+    cursor: pointer;
+  }
+  
+  #loginAndsignup {
+    /* border: 1px solid red; */
+    width: 25%;
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    margin-right: 100px;
+    font-size: 12px;
+  }
+  #loginAndsignup > p:last-child {
+    border-left: 1px solid;
+    cursor: pointer;
+  }
+  
+  #lower {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2bb673;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    gap: 5px;
+    margin-bottom:30px;
+    
+  }
+  #lower > div {
+    width: 10%;
+    /* border: 1px solid red; */
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  #loginAndsignup :nth-child(2) {
+    width: 60%;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #35619f;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #loginAndsignup :nth-child(3) {
+    width: 60%;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #666666;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  #down{
+    height:300px;
+    width:100%;
+    margin-top:40px;
+    background-color: #2bb673;
+    padding-top:15px;
 
 }
+#p1{
+    font-size: 35px;
+    color:black;
+}
+#p2{
+    font-size: 35px;
+    color:grey
+}
+#white{
+    height:100%;
+    width:20%;
+    color: white;
+    font-size: 10px;
+    line-height: 20px;
+}
+#downsmall{
+    height:300px;
+    width:80%;
+    margin:auto;
+    display:flex;
+
+}
+#aa{
+    color:white;
+    font-size: 12px;
+    font-weight: bold;
+}
+  
+     
 #niche{
     display:flex;
-    justify-content: space-around;
+}
+#start{
+    border:3px solid black;
+    height:auto;
+    width:80%;
+    margin:auto;
 }
 #niche4{
     border:1px solid blue;
-    height:200px;
-    width:80%;
+    height:auto;
+    width:100%;
+    margin-top:30px;
+    background-color: white;
 }
 #one_div{
     display:flex;
@@ -26,14 +150,32 @@
 #small_divs{
     border:1px solid black;
     height:40px;
-    width:200px;
+    width:150px;
     text-align: center;
+    margin-bottom:30px;
+    border-radius: 5px;
+    background-color: rgb(245, 248, 249);
+
+}
+button{
+    height:40px;
+    width:70px;
+    background-color: #F53838;
+    margin-top:5px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color:white;
+}
+a{
+    text-decoration: none;
 }
 #number_div{
     display:flex;
     justify-content: space-around;
     height:50px;
-    width:20%;
+    width:25%;
     border:1px solid orange;
 }
 #teddy_image{
@@ -60,6 +202,48 @@ width:180px;
 display:flex;
 justify-content: space-between;
 }
+input{
+    height:40px;
+    width:30%;
+    border-radius: 5px;
+
+}
+body{
+    background-color: rgb(246, 249, 250);
+
+}
+#select{
+    height:40px;
+    width:20%;
+    border-radius: 5px;
+
+}
+#btn1{
+  height:40px;
+  width:18%;
+  background-color:#F53838 ;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0;
+}
+#btn2{
+    height:40px;
+    border: 0;
+
+    width:17%;
+    background-color:#04BE5A ;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+  font-weight: bold;
+  margin-left:40px;
+
+
+
+  }
+
 
 #two{
     height: 70%;
@@ -110,6 +294,7 @@ justify-content: space-between;
     margin-bottom:20px;
     display:flex;
     height:auto;
+    width:100%;
     justify-content: space-between;
     border:3px solid blue;
 }
