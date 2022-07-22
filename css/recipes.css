@@ -125,33 +125,44 @@
     font-size: 12px;
     font-weight: bold;
 }
-  
+#imggg{
+    border:10px solid white;
+    width:98%;
+}
+#p3{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+  #p6{
+    color: grey;
+  }
      
 #niche{
     display:flex;
 }
 #start{
-    border:3px solid black;
     height:auto;
     width:80%;
     margin:auto;
 }
 #niche4{
-    border:1px solid blue;
+    /* border:1px solid blue; */
     height:auto;
     width:100%;
     margin-top:30px;
     background-color: white;
+    padding-top:25px;
 }
 #one_div{
     display:flex;
     justify-content: space-around;
 }
 #small_divs{
-    border:1px solid black;
+    border:1px solid grey;
     height:40px;
     width:150px;
     text-align: center;
+    
     margin-bottom:30px;
     border-radius: 5px;
     background-color: rgb(245, 248, 249);
@@ -167,16 +178,17 @@ button{
     font-size: 15px;
     font-weight: bold;
     color:white;
+    margin-right:5px;
+
 }
-a{
+/* a{
     text-decoration: none;
-}
+} */
 #number_div{
     display:flex;
     justify-content: space-around;
     height:50px;
     width:25%;
-    border:1px solid orange;
 }
 #teddy_image{
 height:50px;
@@ -184,14 +196,15 @@ width:50px;
 border-radius: 20px;
 }
 #major_big_div{
-height:600px;
+height:auto;
 width:80%;
-border:1px solid yellowgreen
 }
 #six_div{
-height:400px;
+height:350px;
 width:30%;
-border:1px solid maroon;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 10px;
+padding:15px 10px 0 10px;
 
 }
 #image_one{
@@ -248,7 +261,6 @@ body{
 #two{
     height: 70%;
     width:100%;
-    border:2px solid black;
 }
 #image_one{
     height:60%;
@@ -266,25 +278,24 @@ body{
     width:25px;
 }
 #tddiv{
-    border:1px solid goldenrod;
     height:30px;
     width:330px;
     display:flex;
 }
 
 #desc{
-    height:30px;
+    height:auto;
     width:100%;
-    border:1px solid pink;
 }
 #imm{
-    height:30px;
-    width:30px;
-}
+   
+        height:25px;
+        width:25px;
+        margin:10px 10px 0 10px;;
+    }
 #three{
     display:flex;
     justify-content: space-between;
-    border:1px solid violet;
 }
 #time1{
     display:flex;
@@ -296,6 +307,5 @@ body{
     height:auto;
     width:100%;
     justify-content: space-between;
-    border:3px solid blue;
 }
 
