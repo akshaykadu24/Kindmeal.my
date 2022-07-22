@@ -1,0 +1,121 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.head_color{
+    color: gray;
+}
+#upper_div{
+    background-color: rgb(240,240,240);
+    
+}
+#upper_div > div{
+    width: 70%;
+    margin: auto;
+}
+form{
+    /* border: 1px solid red; */
+
+    display: flex;
+    justify-content: space-between;
+
+}
+#categories, #location{
+    width: 20%;
+}
+input{
+    width: 30%;
+}
+#categories, #location, input, button{
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    height: 40px;
+
+}
+button{
+    background-color: rgb(240, 48, 48);
+    color: white;
+    padding: 0px 25px 0px 25px;
+}
+button:hover{
+    background-color: rgb(228, 14, 14);
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 70%;
+    margin: auto;
+    gap: 50px;
+}
+#container > div{
+    border-radius: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+#data_div{
+    width: 95%;
+    margin: auto;
+}
+#main_img{
+    width: 100%;
+    border-radius: 30px 30px 0px 0px;
+}
+#heading_div{
+    display: flex;
+    color: rgba(40, 83, 83, 0.763);
+    gap: 10px;
+    margin: -25px 0px -20px 0px;
+}
+#heading_div> h3{
+    margin-top: 23px;
+    color: gray;
+}
+#contain_div{
+    display: flex;
+}
+#button_div{
+    display: flex;
+    justify-content:space-between ;
+}
+#button_div > div{
+    display: flex;
+    margin-bottom: 50px;
+}
+#button_div > button{
+    /* padding: 30px 50px 30px 50px; */
+    width: 40%;
+    height: 60px;
+    font-size:x-large;
+    font-weight: bold;
+
+}
+#disc{
+    margin: auto;
+}
+#disc>p{
+    font-size:xx-large;
+    color: red;
+
+    margin: auto;
+    text-align: center;
+}
+#price{
+    margin: auto;
+    
+}
+#price>h1{
+    /* font-size:xx-large; */
+    color: black;
+    margin: auto;
+    text-align: center;
+}
+#down_div{
+    display: flex;
+    justify-content:space-between ;
+    border: 1px solid darkgray;
+}
+#down_div > div{
+    gap: 5%;
+}
+
