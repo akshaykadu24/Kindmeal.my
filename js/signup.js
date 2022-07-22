@@ -20,5 +20,5 @@ document.getElementById("signUpButton").addEventListener("click", () => {
 
 	alert(`Hello ${UserfName}, Signup successful!`);
 
-	window.location.href = "home.html";
+	window.location.href = "index.html";
 });
