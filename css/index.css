@@ -112,6 +112,10 @@
   width: 35%;
   cursor: pointer;
 }
+.upr_text > div:first-child > a {
+  text-decoration: none;
+  color: #666666;
+}
 .side_text {
   display: flex;
   align-items: center;
@@ -265,9 +269,9 @@ ul {
   margin-top: 70px;
   margin-bottom: -40px;
 }
-#bravo1:hover{
+#bravo1:hover {
   background-color: rgb(196, 192, 192);
 }
-#join_button:hover{
-  background-color: rgb(17, 126, 17);
+#join_button:hover {
+  background-color: #d41f1f;
 }
