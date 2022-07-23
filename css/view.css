@@ -90,25 +90,33 @@
     color: white;
     cursor: pointer;
   }
+
+
+  /* till here navbar CSS*/
+
+
   #img_div{
     position: relative;
   top: 0;
   left: 0;
+  margin-top:-30px;
+  /* width:100%; */
   
   }
   #img1{
     
     position: relative;
     
-    border: 1px green solid;
+    /* border: 1px green solid; */
+    width:100%
 
   }
   #img2{
     position: absolute;
     height:200px;
     width:200px;
-    border: 1px red solid;
-    margin:200px 0 50px -70%;
+    border: 4px solid white;;
+    margin:15% 0 50px -84%;
 
   }
   #wrt>img{
@@ -116,9 +124,10 @@
     width:50px;
   }
   #wrt{
-    width:25%;
+    width:35%;
     display:flex;
     margin-left:34%;
+    /* justify-content: space-around; */
   }
   #btn_div{
     margin-left:34%;
@@ -138,15 +147,40 @@
     height:40px;
     border: 0;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 15px;
     width:170px;
+    color:black;
     background-color:rgb(212, 209, 209);
   }
+  #fourteen{
+    /* border:2px solid green; */
+    width:150px;
+    margin:26px ;
+    font-size: 23px;
+  }
   #analysis{
-    height:400px;
-    width:80%;
-    border:1px solid blue;
+    height:auto;
+    width:75%;
+    border:10px solid #f4d05c;
     margin:auto;
+    background-color:#FFF7DC ;
+    padding:20px 20px 0px 20px;
+    border-radius: 10px;
+  }
+  #in3{
+    display:flex;
+    justify-content: space-between;
+  }
+  #share{
+    height:25px;
+    width:47%;
+    /* border:3px solid yellow; */
+  }
+  #tweet{
+    height:25px;
+    width:47%;
+    border:1px solid rgb(90, 184, 243);
+    /* background-color: #43cef9; */
   }
   #up{
     display:flex;
@@ -155,25 +189,79 @@
   #Q{
     height:40px;
     margin-bottom:10px;
-    width:20%;
-    border:1px solid red;
+    width:25%;
+    /* border:1px solid red; */
     color: grey;
     text-align: center;
+    font-size: 23px;
   }
   #self_image{
-    height:200px;
+    height:180px;
     width:20%;
     border:1px solid pink;
   }
   #self_image2{
-    height:200px;
+    height:180px;
     width:400px;
     border:1px solid pink;
+  }
+  #superman{
+    margin:20px 0 0 -30px;
   }
   #image3_div{
     height:200px;
     width:23%;
-    border:1px solid pink;
+    /* border:1px solid pink; */
+  }
+  #all{
+    height:100px;
+    width:100px;
+    /* border:1px solid red; */
+    position:absolute;
+    margin:-100px 0 0 140px;
+  }
+  #sss{
+    text-decoration: none;
+    color: grey;
+
+
+  }
+  #in1{
+    height:30%;
+    width:100%;
+    /* border:1px solid blue; */
+    text-align: center;
+    font-size: 25px;
+  }
+  #in2{
+    height:30%;
+    width:100%;
+    /* border:1px solid blue; */
+    display:flex;
+  }
+  #in3{
+    height:30%;
+    width:100%;
+    /* border:1px solid blue; */
+  }
+  #level{
+    margin-top:-0px;
+    color:grey;
+    padding-left:10px;
+  }
+  /* #inside2{
+    height:60px;
+    width:100%;
+    border:1px solid red;
+  }
+  #inside3{
+    height:60px;
+    width:100%;
+    border:1px solid red;
+  } */
+  #medal{
+    height:30px;
+    width:30px;
   }
   #td1{
     height:20px;
@@ -238,7 +326,7 @@
       margin-right:5px;
   }
     #image_one{
-      height:60%;
+      height:70%;
       width:100%;
   }
     #one{
@@ -274,6 +362,22 @@
       font-size: 16px;
       margin-top:10px;
     }
+    #move{
+      position: absolute;
+      /* left: 0px;
+      top: 260px; */
+      background-color: rgba(0, 0, 0, 0.5);
+      /* vertical-align: middle; */
+      text-align: center;
+      color: #ffffff;
+      cursor: pointer;
+      z-index: 10;
+      width:23.8%;
+      height:20px;
+      padding:10px 0 10px 0;
+      margin-top:-40px;
+      font-weight: normal;
+  }
     #mm{
       font-size: 22px;
       color: #333333;
