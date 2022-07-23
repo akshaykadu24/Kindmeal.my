@@ -29,6 +29,7 @@ let navbar = () => {
   <div><a href="directory.html">Directory</a></div>
   <div><a href="artical.html">Articles</a></div>
   <div><a href="help.html">Help</a></div>
+  <div><a href="cart.html">Cart</a></div>
 </div> 
    `;
 };
