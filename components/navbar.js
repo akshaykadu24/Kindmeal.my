@@ -20,14 +20,14 @@ let navbar = () => {
   </div>
 </div>
 <div id="lower">
-  <div>Home</div>
-  <div>Meal Deals</div>
-  <div>KindMoments</div>
-  <div>Hot Picks</div>
-  <div>Recipes</div>
-  <div>Directory</div>
-  <div>Articles</div>
-  <div>Help</div>
+  <div><a href="index.html">Home</a></div>
+  <div><a href="mealdeals.html">Meal Deals</a></div>
+  <div><a href="kindmoment.html">KindMoments</a></div>
+  <div><a href="">Hot Picks</a></div>
+  <div><a href="recipes.html">Recipes</a></div>
+  <div><a href="directory.html">Directory</a></div>
+  <div><a href="artical.html">Articles</a></div>
+  <div><a href="help.html">Help</a></div>
 </div> 
    `;
 };

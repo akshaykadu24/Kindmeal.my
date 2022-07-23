@@ -1,0 +1,25 @@
+#down {
+  height: 300px;
+  width: 100%;
+  margin-top: 40px;
+  background-color: #2bb673;
+  padding-top: 15px;
+}
+#white {
+  height: 100%;
+  width: 20%;
+  color: white;
+  font-size: 10px;
+  line-height: 20px;
+}
+#downsmall {
+  height: 300px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+#aa {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
