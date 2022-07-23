@@ -1,3 +1,11 @@
+import navbar from "../components/navbar.js";
+import footer from "../components/footer.js";
+
+document.getElementById("navbar").innerHTML = navbar();
+document.getElementById("footer").innerHTML = footer();
+
+
+
 let usrName = JSON.parse(localStorage.getItem("username"));
 if (usrName !== null) {
 	document.getElementById("left").innerHTML = null;
