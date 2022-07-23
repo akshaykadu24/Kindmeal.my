@@ -23,7 +23,7 @@ let navbar = () => {
   <div><a href="index.html">Home</a></div>
   <div><a href="mealdeals.html">Meal Deals</a></div>
   <div><a href="kindmoment.html">KindMoments</a></div>
-  <div><a href="">Hot Picks</a></div>
+  <div><a href="hotpicks.html">Hot Picks</a></div>
   <div><a href="recipes.html">Recipes</a></div>
   <div><a href="directory.html">Directory</a></div>
   <div><a href="artical.html">Articles</a></div>
