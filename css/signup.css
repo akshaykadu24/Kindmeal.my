@@ -34,6 +34,12 @@ h5{
     padding: 20px;
     font-size: small;
 }
+#foodLoverSignUp:hover{
+    background-color: rgb(120, 195, 120);
+}
+#restaurantSignUp:hover{
+    background-color: rgb(120, 195, 120);
+}
 
 #right_div{
     text-align: left;
@@ -97,6 +103,9 @@ input, select{
     width: 100px;					
     font-size: 16px;					
     margin-top: 20px;
+}
+#signUpButton:hover{
+    background-color: rgb(34, 32, 32);
 }
 #states{
     margin-top: 10px;

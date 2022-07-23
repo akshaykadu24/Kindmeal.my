@@ -1,3 +1,9 @@
+import navbar from "../components/navbar.js";
+import footer from "../components/footer.js";
+
+document.getElementById("navbar").innerHTML = navbar();
+document.getElementById("footer").innerHTML = footer();
+
 
 document.getElementById("signUpButton").addEventListener("click", () => {
 	let details = JSON.parse(localStorage.getItem("UserDetails")) || [];

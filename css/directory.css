@@ -38,6 +38,9 @@
     border: none;
     color: white;
 }
+#sa1:hover{
+    background-color: rgb(43, 38, 38);
+}
 #sa2{
     height: 50px;
     margin-top: 20px;
@@ -46,6 +49,9 @@
     border-radius: 5px;
     border: none;
     color: white;
+}
+#sa2:hover{
+    background-color: rgb(43, 38, 38);
 }
 #vegetarianRestaurantsContents>div{
     display: flex;
@@ -85,6 +91,7 @@
     border-radius: 5px;
     border:none;
 }
+
 #fourButtons .btn-success{
     border: none;
     width: 170px;
@@ -178,6 +185,9 @@
     
 
 }
+#sam13:hover{
+    background-color: rgb(36, 33, 33);
+}
 #sam14{
     background-color:green;
     border: none;
@@ -185,6 +195,9 @@
     color: white;
     width: 170px;
     margin-top: 20px;
+}
+#sam14:hover{
+    background-color: rgb(36, 33, 33);
 }
 #sam15{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
