@@ -19,6 +19,7 @@ let navbar = () => {
     <p>Signup</p>
   </div>
 </div>
+
 <div id="lower">
   <div><a href="index.html">Home</a></div>
   <div><a href="mealdeals.html">Meal Deals</a></div>
