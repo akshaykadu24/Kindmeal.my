@@ -90,6 +90,12 @@
     color: white;
     cursor: pointer;
   }
+
+
+
+  /* till here navbar CSS */
+
+
   #down{
     height:300px;
     width:100%;
@@ -200,16 +206,32 @@ height:auto;
 width:80%;
 }
 #six_div{
-height:350px;
+height:300px;
 width:30%;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 border-radius: 10px;
-padding:15px 10px 0 10px;
+padding:15px 10px 0 0px;
 
 }
+#move{
+    position: absolute;
+    /* left: 0px;
+    top: 260px; */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* vertical-align: middle; */
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    z-index: 10;
+    width:23.8%;
+    height:20px;
+    padding:10px 0 10px 0;
+    margin-top:-40px;
+    font-weight: normal;
+}
 #image_one{
-height:180px;
-width:180px;
+    height:65%;
+    width:100%;
 }
 #one{
 display:flex;
@@ -231,7 +253,7 @@ body{
     border-radius: 5px;
 
 }
-#btn1{
+#search_recipes{
   height:40px;
   width:18%;
   background-color:#F53838 ;
@@ -262,10 +284,7 @@ body{
     height: 70%;
     width:100%;
 }
-#image_one{
-    height:60%;
-    width:100%;
-}
+
 #smallimg{
     height:25px;
     width:25px;
@@ -308,4 +327,95 @@ body{
     width:100%;
     justify-content: space-between;
 }
+.time_image{
+    height:30px;
+    width:30px;
+}
+.ttt_div{
+    display:flex;
+    height:30px;
+    width:80px;
+}
 
+.hhh_div{
+    display:flex;
+    height:30px;
+    width:80px;
+}
+
+.ccc_div{
+    display:flex;
+    height:30px;
+    width:80px;
+}
+.aaaddd{
+    height:50px;
+    width:300px;
+    display:flex;
+    margin:auto;
+    margin-top:-13%;
+    justify-content: space-between;
+}
+.how_time{
+    padding-left:8px;
+    margin-top:6px;
+
+}
+.how_hearts{
+    padding-left:8px;
+    margin-top:6px;
+
+}
+.how_comment{
+    padding-left:8px;
+    margin-top:6px;
+}
+.food_image{
+    height:250px;
+    width:300px;
+    position: relative;;
+}
+.detail_div{
+    background-color: rgba(0, 0, 0, 0.5);
+
+    height:40px;
+    width:300px;
+    position:absolute;
+    margin:-6.5% 0 0 0%;
+    text-align: center;
+    color:white;
+    font-weight: normal;
+    cursor: pointer;
+    z-index: 10;
+
+    
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.img_div{
+    height:300px;
+    width:300px;
+    margin:auto;
+}
+#getting{
+    height:auto;
+    width:300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+      margin:auto;
+    margin-top:3%;
+    border-bottom: 15px;
+    padding:1px 10px 10px 10px;
+    border-radius: 15px;
+
+
+}
+#search{
+    font-size: 18px;
+}
+/* #option{
+    font-size: 18px;
+} */
