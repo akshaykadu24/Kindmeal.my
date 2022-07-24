@@ -26,5 +26,5 @@ document.getElementById("signUpButton").addEventListener("click", () => {
 
 	alert(" Signup successful!");
 
-	window.location.href = "index.html";
+	window.location.href = "login.html";
 });
