@@ -1,4 +1,95 @@
-
+#upr {
+    height: 100px;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #logo {
+    width: 28%;
+  
+    /* padding-top: 25px; */
+    padding-left: 100px;
+    cursor: pointer;
+  
+    /* border: 1px solid teal; */
+  }
+  
+  #social {
+    width: 13%;
+    height: 60px;
+    display: flex;
+  
+    /* border: 1px solid red; */
+  }
+  #social > img {
+    /* border: 1px solid red; */
+    width: 33%;
+    cursor: pointer;
+  }
+  
+  #loginAndsignup {
+    /* border: 1px solid red; */
+    width: 25%;
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    margin-right: 100px;
+    font-size: 12px;
+  }
+  #loginAndsignup > p:last-child {
+    border-left: 1px solid;
+    cursor: pointer;
+  }
+  
+  #lower {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2bb673;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    gap: 5px;
+    margin-bottom:30px;
+    
+  }
+  #lower > div {
+    width: 10%;
+    /* border: 1px solid red; */
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  #loginAndsignup :nth-child(2) {
+    width: 60%;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #35619f;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #loginAndsignup :nth-child(3) {
+    width: 60%;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #666666;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
   #third{
       height:auto;
       display:flex;
@@ -18,10 +109,7 @@
      padding-right:20px;
      background-color: white;
 }
-/* body{
-    background-color: rgb(246, 249, 250);
 
-} */
 *{
     font-family: sans-serif ;
 }

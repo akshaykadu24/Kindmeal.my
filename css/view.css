@@ -1,6 +1,6 @@
 
     
-  
+    
 
 
   /* till here navbar CSS*/
@@ -16,10 +16,11 @@
   }
   #img1{
     
-    position: relative;
+    /* position: relative; */
     
-    /* border: 1px green solid; */
-    width:100%
+    /* border: 10px green solid; */
+    width:100%;
+    margin-top:1%;
 
   }
   #img2{
@@ -27,7 +28,7 @@
     height:200px;
     width:200px;
     border: 4px solid white;;
-    margin:15% 0 50px -84%;
+    margin:19% 0 50px -84%;
 
   }
   #wrt>img{
@@ -88,7 +89,7 @@
     /* border:3px solid yellow; */
   }
   #tweet{
-    height:25px;
+    height:24px;
     width:47%;
     border:1px solid rgb(90, 184, 243);
     /* background-color: #43cef9; */
@@ -105,16 +106,17 @@
     color: grey;
     text-align: center;
     font-size: 23px;
+    margin-left:50px;
   }
   #self_image{
     height:180px;
     width:20%;
-    border:1px solid pink;
+    /* border:1px solid pink; */
   }
   #self_image2{
     height:180px;
-    width:450px;
-    /* border:1px solid red; */
+    width:400px;
+    /* border:1px solid pink; */
     display:flex;
     justify-content: space-between;
   }
@@ -123,15 +125,15 @@
   }
   #image3_div{
     height:200px;
-    width:33%;
-    border:1px solid green;
+    width:23%;
+    /* border:1px solid pink; */
   }
   #all{
     height:100px;
-    width:100px;
+    width:auto;
     /* border:1px solid red; */
     position:absolute;
-    margin:-100px 0 0 140px;
+    margin:-130px 0 0 140px;
   }
   #sss{
     text-decoration: none;
@@ -209,6 +211,7 @@
     height:50px;
     width:50px;
     border-radius: 20px;
+    margin-top:5px;
     }
     #major_big_div{
     height:auto;
@@ -312,7 +315,7 @@
       font-size: 20px;
     }
     #p1{
-      font-size: 13px;
+      font-size: 12px;
       text-align: center;
     }
     #info{
@@ -366,9 +369,18 @@
   width:25px;
   margin:10px 10px 0 10px;;
 }
+
+
+
+/* /////////////////////////// */
+
+#botmad{
+  display:flex;
+}
+
 #red{
-  height:33px;
-  width:33px;
+  height:30px;
+  width:30px;
   /* border:1px solid #F7464A; */
   background-color: #F7464A;
   margin-bottom:5px;
@@ -376,24 +388,24 @@
   /* margin-top:5px; */
 }
 #yellow{
-  height:33px;
-  width:33px;
+  height:30px;
+  width:30px;
   /* border:1px solid yellow; */
-  background-color: yellow;
+  background-color: #FDB45C;
   margin-bottom:5px;
 
 }
 #blue{
-  height:33px;
-  width:33px;
+  height:30px;
+  width:30px;
   /* border:1px solid #589bff; */
   background-color: #589bff;
   margin-bottom:5px;
 
 }
 #green{
-  height:33px;
-  width:33px;
+  height:30px;
+  width:30px;
   /* border:1px solid #46BFBD; */
   background-color: #46BFBD;
   margin-bottom:5px;
@@ -407,8 +419,9 @@
   margin-bottom:2px;
   font-weight: normal;
   color:grey;
-  margin-top:12px;
+  margin-top:17px;
   font-size: 15px;
+  margin-bottom:5px;
 }
 #yellowv{
   height:35px;
@@ -417,9 +430,12 @@
   margin-bottom:2px;
 
   font-weight: normal;
+  margin-top:-7px;
   color:grey;
 }
 #bluev{
+  margin-top:-2px;
+
   height:35px;
   width:200px;
   /* border:1px solid #589bff; */
@@ -429,6 +445,8 @@
   color:grey;
 }
 #greenv{
+  /* margin-top:-5px; */
+
   height:35px;
   width:200px;
   /* border:1px solid #46BFBD; */
@@ -470,24 +488,18 @@
 #fyellow{
   height:70px;
   width:70px;
-  border:1px solid yellow;
+  border:1px solid #FDB45C;
   background-color: #FDB45C;
   border-bottom-right-radius: 90px;
   border: 2px solid white;
 
-
 }
-/* #slack{
-  margin:auto;
-} */
 .imp1{
   display:flex;
 }
 .imp2{
   display:flex;
 }
-
-
 
     
     
