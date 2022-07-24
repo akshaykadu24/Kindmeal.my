@@ -332,3 +332,4 @@ if (y == "true") {
   lgt.addEventListener("click", logout);
   x.append(name, lgt);
 }
+

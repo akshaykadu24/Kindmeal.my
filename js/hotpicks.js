@@ -467,105 +467,87 @@ seventhdetail1a.map(function (el) {
 });
 
 let eighthdetail1a = [
-  {
-    image: "https://www.kindmeal.my/photos/moment/16/16314-24978-m.jpg",
-    dp: "https://www.kindmeal.my/photos/member/10/10072-m.jpg",
-    title: "WongEeLynn at Wonder Poke Wonder Tea:",
-    comment:
-      "Weekday lunch with a friend at my favourite poké bowl café. Loving the vegan options, very reasonable prices, large portions, gar.. :)",
-    read: "Read Review »",
-  },
 
-  {
-    image: "https://www.kindmeal.my/photos/moment/16/16224-24752-m.jpg",
-    dp: "https://www.kindmeal.my/photos/member/30/30530-m.jpg",
-    title: "CasaLatinaKL at Casa Latina Cafe & Cacao Lab:",
-    comment: 'Our newly dressed " Ceviche" :)',
-    read: "Read Review »",
-  },
 
-  {
-    image: "https://www.kindmeal.my/photos/deal/4/469-1822-s.jpg",
-    dp: "https://www.kindmeal.my/photos/member/10/10038-m.jpg",
-    title: "Sohini at Salad Atelier:",
-    comment:
-      "In their menu, this is called French Toasts. But not to be mistaken with the typical French Toasts that was fried with coated egg ..",
-    read: "Read Review »",
-  },
 
-  {
-    image: "https://www.kindmeal.my/photos/moment/14/14891-21520-m.jpg",
-    dp: "https://www.kindmeal.my/photos/member/11/11524-m.jpg",
-    title: "EstherLiew at GRAB Cafe:",
-    comment:
-      "Since I have decided to go Vegan. Here are the options from grabcafe. Garden salad without eggs together with sesame sauce and also ..",
-    read: "Read Review »",
-  },
-];
+    {image: 'https://www.kindmeal.my/photos/moment/16/16314-24978-m.jpg', dp:'https://www.kindmeal.my/photos/member/10/10072-m.jpg',title: 'WongEeLynn at Wonder Poke Wonder Tea:',comment: 'Weekday lunch with a friend at my favourite poké bowl café. Loving the vegan options, very reasonable prices, large portions, gar.. :)',read: 'Read Review »'},
 
-eighthdetail1a.map(function (el) {
-  let maindiv = document.createElement("div");
-  maindiv.setAttribute("class", "alldiv3a");
+    {image: 'https://www.kindmeal.my/photos/moment/16/16224-24752-m.jpg', dp: 'https://www.kindmeal.my/photos/member/30/30530-m.jpg', title: 'CasaLatinaKL at Casa Latina Cafe & Cacao Lab:',comment: 'Our newly dressed " Ceviche" :)',read: 'Read Review »'},
 
-  let imgdiv = document.createElement("div");
-  imgdiv.setAttribute("class", "imgs3a");
+    {image: 'https://www.kindmeal.my/photos/deal/4/469-1822-s.jpg',dp:'https://www.kindmeal.my/photos/member/10/10038-m.jpg',title: 'Sohini at Salad Atelier:', comment: 'In their menu, this is called French Toasts. But not to be mistaken with the typical French Toasts that was fried with coated egg ..', read: 'Read Review »'},
 
-  let sectiontwodiv = document.createElement("div");
-  sectiontwodiv.setAttribute("class", "remaincontent");
+    {image: 'https://www.kindmeal.my/photos/moment/14/14891-21520-m.jpg',dp:"https://www.kindmeal.my/photos/member/11/11524-m.jpg",title: 'EstherLiew at GRAB Cafe:' ,comment: 'Since I have decided to go Vegan. Here are the options from grabcafe. Garden salad without eggs together with sesame sauce and also ..',read: 'Read Review »'},
+]
 
-  let titlediv = document.createElement("div");
-  titlediv.setAttribute("class", "com");
 
-  let dpdiv = document.createElement("div");
-  dpdiv.setAttribute("class", "dpdiv3a");
+eighthdetail1a.map(function(el){
+    let maindiv = document.createElement('div')
+    maindiv.setAttribute('class', 'alldiv3a')
 
-  let namediv = document.createElement("div");
-  namediv.setAttribute("class", "namdiv3a");
+    let imgdiv = document.createElement('div')
+    imgdiv.setAttribute('class', 'imgs3a')
 
-  let cmntdiv = document.createElement("div");
-  cmntdiv.setAttribute("class", "cmntdiv");
+    let sectiontwodiv = document.createElement('div')
+    sectiontwodiv.setAttribute('class', 'remaincontent')
 
-  let image = document.createElement("img");
-  image.src = el.image;
-  image.setAttribute("class", "im3a");
+    let titlediv = document.createElement('div')
+    titlediv.setAttribute('class', 'com')
 
-  let dp = document.createElement("img");
-  dp.src = el.dp;
-  dp.setAttribute("class", "dp3a");
+    let dpdiv = document.createElement('div')
+    dpdiv.setAttribute('class', 'dpdiv3a')
 
-  let name = document.createElement("p");
-  name.innerText = el.title;
+    let namediv = document.createElement('div')
+    namediv.setAttribute('class', 'namdiv3a')
 
-  let cmnt = document.createElement("p");
-  cmnt.innerText = el.comment;
+    let cmntdiv = document.createElement('div')
+    cmntdiv.setAttribute('class', 'cmntdiv')
 
-  let read = document.createElement("p");
-  read.innerText = el.read;
-  read.setAttribute("class", "read");
+    let image = document.createElement('img')
+    image.src = el.image;
+    image.setAttribute('class', 'im3a')
 
-  imgdiv.append(image);
+    let dp = document.createElement('img');
+    dp.src = el.dp;
+    dp.setAttribute('class', 'dp3a')
 
-  dpdiv.append(dp);
+    let name = document.createElement('p');
+    name.innerText = el.title;
 
-  namediv.append(name);
 
-  titlediv.append(dpdiv, namediv);
+    let cmnt = document.createElement('p')
+    cmnt.innerText = el.comment;
 
-  cmntdiv.append(cmnt);
+    let read = document.createElement('p')
+    read.innerText = el.read;
+    read.setAttribute('class', 'read')
 
-  sectiontwodiv.append(titlediv, cmntdiv, read);
+    imgdiv.append(image);
 
-  maindiv.append(imgdiv, sectiontwodiv);
+    dpdiv.append(dp);
 
-  // console.log(maindiv);
+    namediv.append(name);
 
-  document.querySelector("#hotcomment32a").append(maindiv);
-});
+    titlediv.append(dpdiv,namediv);
+
+    cmntdiv.append(cmnt);
+
+    sectiontwodiv.append(titlediv,cmntdiv,read)
+
+    maindiv.append(imgdiv,sectiontwodiv)
+
+    // console.log(maindiv);
+
+    document.querySelector('#hotcomment32a').append(maindiv)
+
+})
+
+
 
 // ------------------login ---------------------------------------
 
 let y = localStorage.getItem("loginstatus");
 let logout = () => {
+
   let x = false;
   localStorage.setItem("loginstatus", x);
   window.location.href = "index.html";
@@ -582,3 +564,5 @@ if (y == "true") {
   lgt.addEventListener("click", logout);
   x.append(name, lgt);
 }
+
+

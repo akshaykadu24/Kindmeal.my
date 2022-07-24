@@ -7,6 +7,7 @@ document.getElementById("footer").innerHTML = footer();
 
 let y = localStorage.getItem("loginstatus");
 let logout = () => {
+
   let x = false;
   localStorage.setItem("loginstatus", x);
   window.location.href = "index.html";
@@ -23,3 +24,7 @@ if (y == "true") {
   lgt.addEventListener("click", logout);
   x.append(name, lgt);
 }
+
+
+
+

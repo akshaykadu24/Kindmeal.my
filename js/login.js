@@ -4,6 +4,7 @@ document.getElementById("navbar").innerHTML = navbar();
 import footer from "../components/footer.js";
 document.getElementById("footer").innerHTML = footer();
 
+
 let x = document.querySelector("form").addEventListener("submit", UserSingIn);
 
 function UserSingIn() {
@@ -36,11 +37,15 @@ function UserSingIn() {
   }
 }
 
+
+
+
 // document.getElementById("submit").addEventListener("click", () => {
 //     let userdata = JSON.parse(localStorage.getItem("UserDetails"));
 
 //     login(userdata)
 // })
+
 
 let y = localStorage.getItem("loginstatus");
 
@@ -62,3 +67,16 @@ if (y == "true") {
   lgt.addEventListener("click", logout);
   x.append(name, lgt);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
