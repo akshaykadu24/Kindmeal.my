@@ -1,0 +1,86 @@
+#saga{
+    border: 1px solid rgb(227, 223, 223);
+    height: 450px;
+    width: 450px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#saga1{
+    /* border: 1px solid red; */
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+#saga2{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    color: rgb(81, 80, 80);
+    margin-top: -20px;
+}
+#form{
+    display:grid;
+    margin-top: 40px;
+    gap: 20px;
+
+}
+input{
+    width: 250px;
+    height: 27px;
+    margin: auto;
+    border-radius: 5px;
+    border:1px solid rgb(201, 199, 199);
+    
+    
+}
+#submit{
+    background: rgb(14, 154, 14);
+    width: 150px;
+    color: white;
+    border: 0px;
+    height: 35px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+#submit:hover{
+    background-color: rgb(4, 82, 4);
+}
+hr{
+    color: rgb(220, 216, 216);
+    margin-top: 20px;
+}
+#saga3{
+    /* border: 1px solid red; */
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    margin:auto;
+    display: flex;
+    /* font-family: "Roboto", sans-serif; */
+    font-size: 22px;
+    font: bold;
+    background-color: rgb(66 103 178);
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+#saga3:hover{
+    background-color: rgb(21, 21, 84);
+}
+
+p{
+    margin-top: -0px;
+    margin-left: 14px;
+    color: white;
+}
+#saga5{
+ display: flex;
+ font-family: "Roboto", sans-serif;
+ color: gray;
+ margin-top: 10px;
+ margin-left: 7px;
+}
+#saga6{
+    margin-left:100px;
+}

@@ -24,7 +24,7 @@ document.getElementById("signUpButton").addEventListener("click", () => {
 
 	localStorage.setItem("UserDetails", JSON.stringify(details));
 
-	alert(`Hello ${UserfName}, Signup successful!`);
+	alert(" Signup successful!");
 
 	window.location.href = "index.html";
 });
