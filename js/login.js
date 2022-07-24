@@ -32,7 +32,7 @@ function UserSingIn() {
             localStorage.setItem("loginstatus", true)
 
             alert("loged In")
-            window.location.reload()
+            window.location.href="index.html"
         }
         else {
 
