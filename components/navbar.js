@@ -13,10 +13,10 @@ let navbar = () => {
     /></a>
   </div>
   <div id="loginAndsignup">
-    <p>login</p>
+    <p><a href="login.html">login</a></p>
     <button>Facebook</button>
     <button>Email</button>
-    <p>Signup</p>
+    <p><a href="signup.html">Signup</a></p>
   </div>
 </div>
 
