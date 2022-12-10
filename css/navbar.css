@@ -42,10 +42,15 @@
   font-family: "Roboto", sans-serif;
   margin-right: 100px;
   font-size: 12px;
+  
 }
-#loginAndsignup > p:last-child {
+#loginAndsignup a{
+  text-decoration: none;
+}
+#loginAndsignup > h1:last-child {
   border-left: 1px solid;
   cursor: pointer;
+  
 }
 
 #lower {

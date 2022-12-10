@@ -250,6 +250,7 @@ let append = (data) => {
         console.log("akshay");
         cart.push(el);
         localStorage.setItem("cart", JSON.stringify(cart));
+        alert("Item is added to Cart")
       };
       button.addEventListener("click", () => {
         addcart({
