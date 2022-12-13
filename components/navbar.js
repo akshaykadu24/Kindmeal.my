@@ -16,7 +16,7 @@ let navbar = () => {
     <h1><a href="login.html">login</a></h1>
     <button>Facebook</button>
     <button>Email</button>
-    <h1><a href="signuh1.html">Signup</a></h1>
+    <h1><a href="signup.html">Signup</a></h1>
   </div>
 </div>
 
